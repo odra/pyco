@@ -34,7 +34,7 @@ def test_as_dict(hello_world_fn):
   code = Code.from_fn(hello_world_fn)
   data = code.as_dict()
   for (k, v) in data.items():
-    assert v == getattr(code, k)  
+    assert v == getattr(code, k)
 
 
 def test_as_json(hello_world_fn):
