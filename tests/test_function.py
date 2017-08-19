@@ -3,9 +3,9 @@ import inspect
 
 import pytest
 
-from kelo.code import Code
-from kelo.function import Function
-from kelo import errors, helpers
+from pyco.code import Code
+from pyco.function import Function
+from pyco import errors, helpers
 
 
 def test_code_with_error():

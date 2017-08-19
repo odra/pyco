@@ -6,8 +6,8 @@ from schematics.models import Model
 from schematics.types import IntType, StringType
 from schematics.types.compound import ModelType
 
-from kelo.helpers.schema import BytesType, TupleType, LazyDictType
-from kelo import errors, helpers
+from pyco.helpers.schema import BytesType, TupleType, LazyDictType
+from pyco import errors, helpers
 
 
 class Code(Model):

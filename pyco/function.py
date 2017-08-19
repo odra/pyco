@@ -7,9 +7,9 @@ from schematics.models import Model
 from schematics.types import IntType, StringType
 from schematics.types.compound import ModelType
 
-from kelo.helpers.schema import BytesType, TupleType, LazyDictType
-from kelo import errors, helpers
-from kelo.code import Code
+from pyco.helpers.schema import BytesType, TupleType, LazyDictType
+from pyco import errors, helpers
+from pyco.code import Code
 
 
 class Function(Model):

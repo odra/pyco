@@ -1,7 +1,7 @@
 import inspect
 
-from kelo.code import Code
-from kelo.function import Function
+from pyco.code import Code
+from pyco.function import Function
 
 
 def from_fn(fn, fn_globals=None):

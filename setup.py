@@ -3,12 +3,12 @@ from setuptools import setup, find_packages
 
 
 setup(
-  name='kelo',
+  name='pyco',
   version='0.1.0',
   description='Manages and builds code and function objects.',
   author='Leonardo Rossetti',
   author_email='me@lrossetti.com',
-  url='https://github.com/odra/kelo',
+  url='https://github.com/odra/pyco',
   packages=find_packages(),
   install_requires=[
     'six==1.10.0',

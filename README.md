@@ -1,8 +1,8 @@
-# Kelo
+# pyco
 
 **Only works on Python >= 3**
 
-Python library to manipulate code and function objects
+Python library to manipulate code and function objects.
 
 ## Dependencies
 
@@ -11,16 +11,22 @@ Python library to manipulate code and function objects
 
 ## Installation
 
+### Using pip
+
 ```sh
-pip install kelo
+pip install pyco
 ```
+
+### Clonning repo
 
 ```sh
 python setup.py install
 ```
 
+### From zipfile
+
 ```sh
-pip install git+git://github.com/odra/kelo.git
+pip install https://github.com/odra/pyco/archive/master.zip
 ```
 
 ## Development
@@ -36,6 +42,17 @@ Run tests:
 ```
 py.test -s
 ```
+
+## Usage
+
+This module provides two classes for function and code objects manipulation:
+
+* pyco.function.Function: function object that stores function props
+* pyco.code.Code: Code object that stores funcion code property
+
+Both classes are used to create a new function/code object, change it as needed, serialize, call the function back, etc.
+
+Check the examples folder for detailed used while a more detailed documentation is not available. 
 
 ## License
 

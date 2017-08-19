@@ -2,8 +2,8 @@ import json
 
 import pytest
 
-from kelo.code import Code
-from kelo import errors, helpers
+from pyco.code import Code
+from pyco import errors, helpers
 
 
 def test_code_with_error():
