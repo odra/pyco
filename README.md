@@ -11,12 +11,6 @@ Python library to manipulate code and function objects.
 
 ## Installation
 
-### Using pip
-
-```sh
-pip install pyco
-```
-
 ### Clonning repo
 
 ```sh
